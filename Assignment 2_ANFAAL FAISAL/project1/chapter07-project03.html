@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chapter 7</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/chapter07-project03.css" />
+
+</head>
+
+<body>
+    <header>
+        <div class="topHeaderRow">
+            <div class="container">
+                <div class="pull-right">
+                    <ul class="list-inline">
+                        <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-star"></span> Favorites</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end topHeaderRow -->
+
+
+        <nav class="navbar navbar-default ">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Share Your Travels</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Browse <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Countries</a></li>
+                                <li><a href="#">Images</a></li>
+                                <li><a href="#">Posts</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <!-- /.navbar-collapse -->
+
+
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+
+
+    <!-- Page Content -->
+    <main class="container">
+        <div class="row"> <!--begin row -->
+            <aside class="col-md-2"> <!--add column-->
+                <div class="panel panel-info ">
+                    <div class="panel-heading">Continents</div>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#">Africa</a></li>
+                        <li class="list-group-item"><a href="#">Asia</a></li>
+                        <li class="list-group-item"><a href="#">Europe</a></li>
+                        <li class="list-group-item"><a href="#">North America</a></li>
+                        <li class="list-group-item"><a href="#">South America</a></li>
+                    </ul>
+                </div>
+                <!-- end continents panel -->
+
+                <div class="panel panel-info">
+                    <div class="panel-heading">Popular</div>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#">Canada</a></li>
+                        <li class="list-group-item"><a href="#">France</a></li>
+                        <li class="list-group-item"><a href="#">Italy</a></li>
+                        <li class="list-group-item"><a href="#">Germany</a></li>
+                        <li class="list-group-item"><a href="#">Ghana</a></li>
+                        <li class="list-group-item"><a href="#">Greece</a></li>
+                        <li class="list-group-item"><a href="#">Hungary</a></li>
+                        <li class="list-group-item"><a href="#">Spain</a></li>
+                        <li class="list-group-item"><a href="#">United States</a></li>
+                        <li class="list-group-item"><a href="#">United Kingdom</a></li>
+                    </ul>
+                </div>
+<!-- end continents panel -->
+            </aside>
+
+            <div class="col-md-10"> <!--add column-->
+                <div class="row"> <!-- begin row -->
+                    <div class="col-md-8"> <!--add column-->
+
+                        <img class="img-responsive" src="images/8711645510.jpg" alt="Temple of Hephaistos">
+
+                        <p class="description">Located on the western perimeter of Agora in Athens. Built in 460-415 BCE, it is the best preserved temple of antiquity. </p>
+                    </div>
+
+                    <div class="col-md-4"> <!-- Begin right-info column -->
+                        <h2>Temple of Hephaistos</h2>
+
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <ul class="details-list">
+                                    <li>By: <a href="#">Ellie Sullivan</a></li>
+                                    <li>Country: <a href="#">Greece</a></li>
+                                    <li>City: <a href="#">Athens</a></li>
+                                    <li>Taken on: August 8, 2017</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                            <div class="btn-group" role="group">
+                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></button>
+                            </div>
+                            <div class="btn-group" role="group">
+                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-save" aria-hidden="true"></span></button>
+                            </div>
+                            <div class="btn-group" role="group">
+                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></button>
+                            </div>
+                            <div class="btn-group" role="group">
+                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span></button>
+                            </div>
+                        </div>
+
+                        <h4>Tags</h4>
+                        <div class="panel panel-default">
+                            <div class="panel-body" id="tags">
+                                <span class="label label-default">ancient</span>
+                                <span class="label label-default">garden</span>
+                                <span class="label label-default">hill</span>
+                                <span class="label label-default">ruins</span>
+                                <span class="label label-default">sunshine</span>
+                                <span class="label label-default">temple</span>
+
+                            </div>
+                        </div>
+
+                    </div> <!-- end right-info column -->
+                </div> <!-- end row -->
+
+
+
+                <!-- Related Projects Row -->
+                <div class="row"> <!-- begin row-->
+
+                    <div class="col-md-10"> <!--add column-->
+                        <h3>Related Photos</h3>
+                    </div>
+
+                    <div class="col-xs-3"> <!--add column-->
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img class="img-responsive portfolio-item" src="images/related/8710320515.jpg" alt="">
+                            </a>
+                            <div class="caption">
+                                <h6>Ekklisia Agii Isidori</h6>
+                                <button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View</button>
+                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Favorite</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="   col-xs-3">  <!--add column-->
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img class="img-responsive portfolio-item" src="images/related/8710513053.jpg" alt="">
+                            </a>
+                            <div class="caption">
+                                <h6>Theatre of Dionysos</h6>
+                                <button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View</button>
+                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Favorite</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="   col-xs-3"> <!--add column-->
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img class="img-responsive portfolio-item" src="images/related/8711623884.jpg" alt="">
+                            </a>
+                            <div class="caption">
+                                <h6>Roman Agora</h6>
+                                <button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View</button>
+                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Favorite</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-3"> <!--add column-->
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img class="img-responsive portfolio-item" src="images/related/9498388516.jpg" alt="">
+                            </a>
+                            <div class="caption">
+                                <h6>Temple of Asclepius</h6>
+                                <button type="button" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View</button>
+                                <button type="button" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Favorite</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- /.row -->
+
+
+            </div>
+            <!-- end main content area -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row"> <!--begin row-->
+                <div class="col-md-6"> <!--add column-->
+                    <h4>Share YourTravels</h4>
+                    <p>This is a case study from the textbook <em>Fundamentals of Web Development</em>. This book is published by Pearson Ed, and is the only textbook that covers the essentials of the entire field of contemporary web development. </p>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h5>Headquarters</h5>
+                            Mount Royal University<br> 4825 Mount Royal Gate SW<br> Calgary, Canada, T3E 6K6
+                        </div>
+                        <div class="col-lg-6">
+                            <h5>Follow Us</h5>
+                            <button type="button" class="btn btn-primary sm">
+                                <span class="glyphicon glyphicon-camera" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-info sm">
+                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-success sm">
+                                <span class="glyphicon glyphicon-tags" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-danger sm">
+                                <span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-warning sm">
+                                <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <!--add column-->
+
+                    <h5><span class="glyphicon glyphicon-pencil"></span> Recent Posts</h5>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object img-circle" src="images/footer/6592294487.jpg" alt="...">
+                        </a>
+                        <div class="media-body">
+                            <p class="media-heading similarTitle"><a href="#">Calgary in the Snow</a></p>
+                            <em>5 minutes ago</em>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object img-circle" src="images/footer/6114904363.jpg" alt="...">
+                        </a>
+                        <div class="media-body">
+                            <p class="media-heading similarTitle"><a href="#">Mountain Climbing</a></p>
+                            <em>11 minutes ago</em>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object img-circle" src="images/footer/5856697109.jpg" alt="...">
+                        </a>
+                        <div class="media-body">
+                            <p class="media-heading similarTitle"><a href="#">Nova Scotia</a></p>
+                            <em>23 minutes ago</em>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3"> <!--add column-->
+
+                    <h5><span class="glyphicon glyphicon-envelope"></span> Contact us</h5>
+                    <form role="form">
+                        <div class="form-group tight-form-group">
+                            <label class="sr-only" for="name">Name</label>
+                            <input type="text" class="form-control" name="email" placeholder="Enter name ...">
+                        </div>
+                        <div class="form-group tight-form-group">
+                            <label class="sr-only" for="email">Email</label>
+                            <input type="email" class="form-control" name="email" placeholder="Enter email ...">
+                        </div>
+                        <div class="form-group tight-form-group">
+                            <label class="sr-only" for="email">Email</label>
+                            <textarea class="form-control" rows="3" placeholder="Enter message ..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+        <div class="container-fluid">
+            <div class="row final">
+                <p>Copyright &copy; 2017 Creative Commons ShareAlike</p>
+                <p><a href="#">Home</a> / <a href="#">About</a> / <a href="#">Contact</a> / <a href="#">Browse</a></p>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+</html>

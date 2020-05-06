@@ -1,0 +1,40 @@
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    display: inline-block;
+    font-size: 200%;
+}
+
+.navbar-header a{
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+}
+
+.topHeaderRow{
+    background-color: darkblue ;
+    vertical-align: middle;
+  
+}
+
+.glyphicon a, .topHeaderRow a{
+    color: white;
+}
+
+.topHeaderRow li{
+    margin-top: auto;
+    margin-bottom: auto ;
+    vertical-align: middle;
+}
+
+footer{
+    color: white;
+    background-color: rgb(48, 63, 159);
+}
+
+
+.final{
+    background-color: darkblue;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px; 
+}
+
